@@ -85,6 +85,14 @@ nav a:hover, nav a.active{ color: var(--brand); }
 }
 .collapsible{ margin-top: 10px; }
 .collapsible p{ color: #444; }
+.preview{
+  color: #444;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
 
 /* nav buttons + dots */
 .nav-btn{
