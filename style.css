@@ -117,8 +117,8 @@ nav a:hover, nav a.active{ color: var(--brand); }
 /* =======================
    INTERNAL PAGES (About, etc.)
 ======================= */
-/* No scroll on internal pages that add body.internal */
-body.internal{ overflow: hidden; }
+/* Allow vertical scrolling on internal pages but hide any horizontal overflow */
+body.internal{ overflow-x: hidden; }
 
 /* Main container below fixed navbar, above page footer */
 .container{
